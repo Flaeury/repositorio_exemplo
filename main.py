@@ -16,6 +16,7 @@ while True:
     jogador_escolha -= 1  # Ajusta para índice da lista
 
     computador_escolha = random.randint(0, 2)
+    print(jogador_escolha)
 
     print("Você escolheu:", opcoes[jogador_escolha])
     print("O computador escolheu:", opcoes[computador_escolha])
